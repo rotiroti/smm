@@ -1,0 +1,74 @@
++++++++++++++++++++++++++++++++++++++++++++++++++
+Simple Memory Manager (smm)
+
+*********************************************
+# Compilazione di Simple Memory Manager (smm)
+*********************************************
+
+Lanciare il comando make oppure make all dalla
+directory nella si e' scompattato il progetto.
+
+Viene creata la libreria libsmm.a nella directory
+lib del progetto.
+
+Vengono generati i file esegubili smmMon e smmd 
+nella directory bin del progetto.
+
+
+**********************************************
+# Installazione di Simple Memory Manager (smm)
+**********************************************
+
+Come precondizione, viene richiesto che sia
+stata eseguita la compilazione attraverso il 
+comando make o make all e che esista la directory
+$HOME/smm.
+
+Lanciare il comando make install.
+
+Vengono copiati smmMon, smmd e libsmm.a nella directory $HOME/smm
+
+
+***********************************************************
+# Esecuzione di Simple Memory Manager (smm) smmMon + start
+***********************************************************
+
+Eseguire il comando cd $HOME/smm dalla directory del progetto.
+
+Lanciare l'eseguibile smmMon.
+
+Una volta proposto il prompt digitare il comando start o start -d,
+per avviare il demone smmd.
+
+# start 
+
+oppure
+
+# start -d
+
+*******************************************************
+# Esecuzione di Simple Memory Manager (smm) alternativa
+*******************************************************
+
+Eseguire il comando cd $HOME/smm dalla directory del progetto.
+
+Lanciare l'esegubile smmd dalla directory $HOME/smm
+
+
+*************************************************
+# Disinstallazione di Simple Memory Manager (smm)
+*************************************************
+
+Lanciare il comando make uninstall dalla directory dove
+il progetto e' stato scompattato.
+
+Vengono eliminati gli esegubili smmMon, smmd e la libreria
+libsmm.a presenti nella directory $HOME/smm
+
+
+*********************************************************
+# Rimozione dei file generati dal comando make o make all
+*********************************************************
+
+Lanciare il comando make clean nella directory dove
+il progetto e' stato scompattato.
